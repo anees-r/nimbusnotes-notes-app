@@ -1,0 +1,7 @@
+# git ignore for backend
+
+# env file
+.env
+
+# dependencies
+/node_modules

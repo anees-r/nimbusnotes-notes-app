@@ -1,0 +1,4 @@
+light: #f8f9fa
+dark: #212529
+purple: #9B59B6
+green: #2ECC71
