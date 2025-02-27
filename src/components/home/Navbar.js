@@ -7,8 +7,13 @@ const Navbar = () => {
   return (
     <div>
       <div
-        className="d-flex justify-content-between align-items-center bg-dark"
-        style={{ height: "55px" }}
+        className="d-flex position-fixed justify-content-between align-items-center bg-dark"
+        style={{
+          height: "55px",
+          width: "100%",
+          zIndex: "100",
+          boxShadow: "0 -10px 30px rgba(84, 239, 92, 0.17)",
+        }}
       >
         <Link to="/home">
           <img

@@ -3,7 +3,7 @@ import React from "react";
 const NoteItem = () => {
   return (
     <div>
-      <div className="card border-success bg-dark my-3 mx-3">
+      <div className="card border-success bg-dark my-3 mx-3 shadow-lg">
         <h6 className="card-header text-success">tag1, tag2</h6>
         <div className="card-body text-light">
           <h3 className="card-title">My title</h3>

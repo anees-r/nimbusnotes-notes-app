@@ -15,6 +15,7 @@ const CreateNote = () => {
                 className="form-control text-light border-success"
                 id="inptitle"
                 style={{ backgroundColor: "#404e4c" }}
+                placeholder="Title"
               />
             </div>
 
@@ -24,6 +25,7 @@ const CreateNote = () => {
                 className="form-control text-light border-success"
                 id="inptags"
                 style={{ backgroundColor: "#404e4c" }}
+                placeholder="Tags (tag1, tag2, tag3...)"
               />
             </div>
           </div>
@@ -35,11 +37,16 @@ const CreateNote = () => {
                 className="form-control text-light border-success"
                 id="inpnote"
                 style={{ backgroundColor: "#404e4c" }}
+                placeholder="Write here"
               />
             </div>
 
-            <div className="text-light col-1 my-2">
-              <button type="submit" className="btn btn-success">
+            <div className="text-light col-md-1 my-2">
+              <button
+                type="submit"
+                className="btn btn-success"
+                style={{ width: "100%" }}
+              >
                 +
               </button>
             </div>
