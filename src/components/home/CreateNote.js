@@ -14,7 +14,7 @@ const CreateNote = () => {
                 type="text"
                 className="form-control text-light border-success"
                 id="inptitle"
-                style={{ backgroundColor: "#404e4c" }}
+                style={{ backgroundColor: "#5e736a" }}
                 placeholder="Title"
               />
             </div>
@@ -24,7 +24,7 @@ const CreateNote = () => {
                 type="text"
                 className="form-control text-light border-success"
                 id="inptags"
-                style={{ backgroundColor: "#404e4c" }}
+                style={{ backgroundColor: "#5e736a" }}
                 placeholder="Tags (tag1, tag2, tag3...)"
               />
             </div>
@@ -36,7 +36,7 @@ const CreateNote = () => {
                 type="text"
                 className="form-control text-light border-success"
                 id="inpnote"
-                style={{ backgroundColor: "#404e4c" }}
+                style={{ backgroundColor: "#5e736a" }}
                 placeholder="Write here"
               />
             </div>

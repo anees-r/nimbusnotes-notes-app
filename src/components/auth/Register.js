@@ -45,7 +45,7 @@ const Register = () => {
               type="text"
               className="form-control text-light border-success"
               id="name"
-              style={{ backgroundColor: "#404e4c" }}
+              style={{ backgroundColor: "#5e736a" }}
               placeholder="Name"
             />
           </div>
@@ -55,7 +55,7 @@ const Register = () => {
               type="text"
               className="form-control text-light border-success"
               id="email"
-              style={{ backgroundColor: "#404e4c" }}
+              style={{ backgroundColor: "#5e736a" }}
               placeholder="Email"
             />
           </div>
@@ -65,7 +65,7 @@ const Register = () => {
               type="password"
               className="form-control text-light border-success"
               id="password"
-              style={{ backgroundColor: "#404e4c" }}
+              style={{ backgroundColor: "#5e736a" }}
               placeholder="Password"
             />
           </div>
