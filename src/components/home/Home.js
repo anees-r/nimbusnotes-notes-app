@@ -9,8 +9,8 @@ const Home = () => {
     <>
       <Navbar />
       <div
-        className="container bg- overflow-scroll"
-        style={{ height: "95vw", paddingTop: "70px" }}
+        className="container"
+        style={{ paddingTop: "70px", paddingBottom:"280px" }}
       >
         <Notes />
       </div>

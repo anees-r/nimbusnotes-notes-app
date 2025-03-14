@@ -1,16 +1,10 @@
-import React, { useContext, useEffect } from "react";
+import React from "react";
 import AppIcon from "../../icons/app-icon.png";
 import { Link } from "react-router";
-import noteContext from "../../context/notes/NoteContext";
 
 const Login = () => {
   document.title = "NimbusNotes - Login";
 
-  const test = useContext(noteContext);
-
-  useEffect(() => {
-    test.update("Anees New");
-  }, []);
   return (
     <div
       className="bg-dark p-5 mx-auto my-5"
@@ -21,10 +15,9 @@ const Login = () => {
         boxShadow: "0 0px 30px rgba(84, 239, 92, 0.17)",
       }}
     >
-      <h6 className="text-warning text-center">This is {test.state.name}</h6>
       <div className="d-flex flex-column justify-content-center align-items-center">
         <Link to="/">
-          <img src={AppIcon} style={{ height: "150px", width: "150px" }} />
+          <img alt="logo" src={AppIcon} style={{ height: "150px", width: "150px" }} />
         </Link>
         <h1
           className=""
